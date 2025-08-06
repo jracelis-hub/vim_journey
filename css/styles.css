@@ -8,9 +8,10 @@ body {
 
 .first_table {
 	border-collapse: collapse;
-	border: 1px;
+	border: 4px;
+	border-radius: 6px;
 	border-style: solid;
-	border-color: black;
+	border-color: #C4A484;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
