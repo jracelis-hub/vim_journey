@@ -1,0 +1,40 @@
+body {
+	background-color: #8ba888;
+}
+
+p {
+
+}
+
+.first_table {
+	border-collapse: collapse;
+	width: 100%;
+	font-family: Arial, snan-serif;
+}
+
+/* */
+.first_table,.first_table th,.first_table td {
+	border: 1px soild #cccc;
+}
+
+.first_table thead {
+
+
+
+}
+
+
+
+.first_table th {
+
+
+
+}
+
+
+
+.first_table tbody tr {
+
+
+
+}
