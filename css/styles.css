@@ -21,6 +21,7 @@ body {
 /* */
 .first_table th,.first_table td {
 	text-align: center;
+	font-size: 11px;
 	padding: 4px;
 }
 
