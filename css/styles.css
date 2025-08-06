@@ -11,14 +11,15 @@ p {
 }
 
 .first_table {
-	border-collapse: collapse;
-	width: 100%;
+	border-style: solid;
+	border-color: black;
+	width: 50%;
 	font-family: Arial, snan-serif;
 }
 
 /* */
 .first_table,.first_table th,.first_table td {
-	border: 1px soild black;
+
 }
 
 .first_table thead {
