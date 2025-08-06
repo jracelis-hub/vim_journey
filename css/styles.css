@@ -11,6 +11,7 @@ p {
 }
 
 .first_table {
+	border-collapse: collapse;
 	border: 1px;
 	border-style: solid;
 	border-color: black;
@@ -19,25 +20,18 @@ p {
 }
 
 /* */
-.first_table,.first_table th,.first_table td {
-
+.first_table th,.first_table td {
+	text-align: center;
+	padding: 4px;
 }
 
-.first_table thead {
-
-
-
+.first_table tbody {
+	background-color: #C4A484;
+	border-collapse: collapse;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
 }
-
-
-
-.first_table th {
-
-
-
-}
-
-
 
 .first_table tbody tr {
 
