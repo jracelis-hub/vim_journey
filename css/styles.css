@@ -14,7 +14,7 @@ p {
 
 /* */
 .first_table,.first_table th,.first_table td {
-	border: 1px soild #cccc;
+	border: 1px soild black;
 }
 
 .first_table thead {
