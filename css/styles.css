@@ -1,5 +1,8 @@
 body {
-	margin: 20
+	margin-top: 100;
+	margin-bottom: 100;
+	margin-right: 150;
+	margin-left: 150;
 	background-color: #8ba888;
 }
 
