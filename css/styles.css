@@ -14,7 +14,7 @@ body {
 	border-color: #C4A484;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 50%;
 	font-family: Arial, snan-serif;
 }
 
@@ -23,7 +23,7 @@ body {
 	text-align: center;
 	font-size: 11px;
 	font-style: bold;
-	padding: 4px;
+	padding: 2px;
 }
 
 .first_table tbody th{
