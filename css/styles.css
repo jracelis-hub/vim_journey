@@ -9,11 +9,10 @@ body {
 .first_table {
 	border-collapse: collapse;
 	border: 4px;
-	border-radius: 6px;
+	border-radius: 10px;
 	border-style: solid;
 	border-color: #C4A484;
 	margin-left: auto;
-	margin-right: auto;
 	width: 50%;
 	font-family: Arial, snan-serif;
 }
