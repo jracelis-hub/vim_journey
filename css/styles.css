@@ -8,13 +8,13 @@ body {
 
 .first_table {
 	border-collapse: collapse;
-	border: 4px;
-	border-radius: 10px;
-	border-style: solid;
-	border-color: #C4A484;
-	margin: 150px;
+	border: 10px;
+	border-radius: 20px;
+	border-style: ridge;
+	border-color: #000000;
+	margin-left: 150px;
 	margin-right: auto;
-	width: 50%;
+	width: 70%;
 	font-family: Arial, snan-serif;
 }
 
