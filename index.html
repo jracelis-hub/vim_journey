@@ -1,62 +1,143 @@
 <!DOCTYPE html>
-	<html>
-	<head>
+<!---          The Layout For This Html         ---->
+<!-------------------------------------------------->
+<!--|                  <body>                   |--->
+<!--|-------------------------------------------|--->
+<!--|          |       <nav>?        |          |--->
+<!--|          |---------------------|          |--->
+<!--|          |      <header>       |          |--->
+<!--|          |---------------------|          |--->
+<!--|          |  <main>             |          |--->
+<!--|          |                     |          |--->
+<!--|          |      <section>      |          |--->
+<!--|          |                     |          |--->
+<!--|          |                     |          |--->
+<!--|          |      <section>      |          |--->
+<!--| <asideL> |                     | <asideR> |--->
+<!--|          |                     |          |--->
+<!--|          |      <section>      |          |--->
+<!--|          |                     |          |--->
+<!--|          |                     |          |--->
+<!--|          |      <section>      |          |--->
+<!--|          |                     |          |--->
+<!--|          |  </main>            |          |--->
+<!--|          |---------------------|          |--->
+<!--|          |      <footer>       |          |--->
+<!--|-------------------------------------------|--->
+<!--|                  </body>                  |--->
+<!-------------------------------------------------->
+<html lang="en-US">
+<head>
+	<!-- Put meta data here --->
+		<title>Vim Journey</title>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="css/styles.css">
-	</head>
-	<body>
-		
-		<h1>My Vim Journey!</h1>
-			<p>Hello from me</p>
+</head>
 
-		<table class="first_table">
-			<thead>
-				<tr>
-					<th colspan="2">Delete</th>	
-					<th colspan="2">Copy (Yank)</th>	
-					<th colspan="2">Paste</th>	
-					<th colspan="2">Cut</th>
-				</tr>
-			</thead>
-			<tbody class"first_table">
-				<tr>
-					<td >Command</td>
-					<td >Description</td>
-					<td >Command</td>
-					<td >Description</td>
-					<td >Command</td>
-					<td >Description</td>
-					<td >Command</td>
-					<td >Description</td>
-				</tr>
-				<tr>
-					<td><code>dd</code></td>
-					<td>to delete a line</td>
-					<td><code>yy</code></td>
-					<td>to copy a line</td>
-					<td><code>p</code></td>
-					<td>to paste below a line or after the cursor</td>
-					<td><code>cc</code></td>
-					<td>to delete a line and go into insert mode</td>
-				</tr>
-				<tr>
-					<td><code>ndd</code></td>
-					<td>to delete n lines</td>
-					<td><code>nyy</code></td>
-					<td>to copy n lines</td>
-					<td><code>np</code></td>
-					<td>to paste the same item n times</td>
-					<td><code>ncc</code></td>
-					<td>to delete n lines and go into insert mode</td>
-				</tr>
-				<tr>
-					<td><code>ndd</code></td>
-					<td>to delete n lines</td>
-					<td><code>nyy</code></td>
-					<td>to copy n lines</td>
-					<td><code>np</code></td>
-					<td>to paste the same item n times</td>
-					<td><code>cc</code></td>
-					<td>to delete n lines and go into insert mode</td>
-				</tr>
+	<body>
+
+		<nav></nav>
+
+		<main>
+
+			<aside class="sidebar">
+				<header class="left">Table of Contents</header>		
+					<ul>
+						<li>Introduction</li>
+						<li>Navigation</li>
+					</ul>
+			</aside>
+
+			<div class="content">
+				<header class="center">All Things Vim</header>
+
+            <!-- Paragraph 1 --->
+				<h1 class="center">Introduction</h1>
+					<p class="center spacing">
+						<i>Vim</i> is a highly configurable, powerful and fast text editor. <i>Vim</i> or <i>Vi Improved</i>, is an enchanced version of the older text editor originally called <i>Vi</i>. <i>Vim</i> utilizes the concept of <i><b>modes</b></i> for editing. Starting may be daughting but once understanding the fundamentals of how to navigate between modes and muniplating text, the work flow of coding will greatly increase.
+						<br>
+						<br>
+						<i>Vim</i> is lightweight but there is a whole community that have niches plugins and configurations that can be edited to suit the need of the user.
+						<br>
+						<br>
+						When using <i>vim</i> the first question that all people ask is <i>how do I get out of this</i>. The default mode upon entering is called <code>Normal</code> mode. To exit it introduces an another mode which is called <code>CMD</code> mode. To enter command mode type the <code>:</code> key. On the bottom of the screen the mouse cursor will be at the bottom, and from there type <code>q</code> to <i><b>quit</i></b>. To save edits on a file type <code>:w</code>.
+						<br>
+						<br>
+						The 3 common command ways to exit are:
+						<ol class="center spacing">
+							<li><code>:q</code> - quit no edits have been made</li>
+							<li><code>:q!</code> - force quit without saving any edits</li>
+							<li><code>:wq</code> - save and exit</li>
+						</ol>
+						<p class="center spacing">With the basic of saving and exiting a vim file. In the next section, it will go over how to move the cursor around with key movements.
+						</p>
+					</p>
+
+            <!-- Paragraph 2 --->
+				<h2 class="center">Navigation</h1>
+					<p class="center">
+						The cursor motions to move around in vim are:
+						<table>
+
+							<thead>
+
+								<tr>
+									<th class="table-header" colspan="2">Cursor Movements</th>
+								</tr>
+								<tr>
+									<th>Command</th>
+									<th>Description</th>
+								</tr>
+
+							</thead>
+							<tbody>
+
+								<tr>
+									<td><code>h</code></td>
+									<td>to move cursor left</td>
+								</tr>
+								<tr>
+									<td><code>l</code></td>
+									<td>to move cursor to the right</td>
+								</tr>
+								<tr>
+									<td><code>j</code></td>
+									<td>to move cursor to the down</td>
+								</tr>
+								<tr>
+									<td><code>k</code></td>
+									<td>to move cursor to the up</td>
+								</tr>
+								<tr>
+									<td><code>w</code></td>
+									<td>to move cursor forward to the first character in a word </td>
+								</tr>
+								<tr>
+									<td><code>b</code></td>
+									<td>to move cursor backward to the first character in a word </td>
+								</tr>
+								<tr>
+									<td><code>e</code></td>
+									<td>to move cursor forward to the last character in a word</td>
+								</tr>
+								<tr>
+									<td><code>%</code></td>
+									<td>to move cursor from one matching <code>(</code>,<code>{</code>,<code>[</code> to the other <code>)</code>,<code>}</code>,<code>]</code></td>
+								</tr>
+
+							<tbody>
+
+						</table>
+					</p>
+										</div>
+
+			<aside class="sidebar">
+			</aside>
+
+		</main>
+
+		<footer class="bottom"></footer>
+ 
 	</body>
-	</html>
+
+</html>
